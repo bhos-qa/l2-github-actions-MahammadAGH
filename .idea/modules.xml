@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/multiplier.iml" filepath="$PROJECT_DIR$/multiplier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/multiplier.main.iml" filepath="$PROJECT_DIR$/.idea/modules/multiplier.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/multiplier.test.iml" filepath="$PROJECT_DIR$/.idea/modules/multiplier.test.iml" />
+    </modules>
+  </component>
+</project>
