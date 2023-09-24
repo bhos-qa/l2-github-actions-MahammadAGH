@@ -1,21 +1,18 @@
-name: JUnitTest
+# This is a basic workflow to help you get started with Actions
+
+name: CI
 
 on:
   pull_request:
-    branches:
-      - develop
+    branches: [ "develop" ]
+
   workflow_dispatch:
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Run JUnit tests
-        run: ./gradlew test
-
-      - name: Build with Gradle
-        run: ./gradlew build
+      - uses: actions/checkout@v4 
+      - name: Run tests
+        run: chmod +x ./gradlew && ./gradlew test
